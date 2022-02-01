@@ -96,7 +96,7 @@ const Header = () => {
                                                 <>
                                                     <tr>
                                                         <td>
-                                                        <NavLink to={`/cart/${e.id}`}><img src={e.imgdata} style={{ width: "5rem", height: "5rem", cursor: "pointer" }} alt="" /></NavLink>
+                                                        <NavLink to={`/cart/${e.id}`} onClick={handleClose}><img src={e.imgdata} style={{ width: "5rem", height: "5rem", cursor: "pointer" }} alt="" /></NavLink>
                                                             
                                                         </td>
                                                         <td><p>{e.rname}</p>
